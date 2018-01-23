@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "KBB",
+    "version": "1.0",
+    "description": "KBB",
+    "page_action": {
+        "default_icon": "icon.png"
+    },
+    "content_scripts": [
+      {
+        "matches": [
+          "https://api.binance.com/*",
+          "http://api.binance.com/*"
+        ],
+        "js": [
+          "content_script.js"
+        ]
+      }
+    ],
+
+    "permissions" : [
+        "tabs",
+        "http://*/*"
+            ]
+}
