@@ -17,4 +17,4 @@ setInterval(function(){
         console.log('Status: ' + xhr.status); // An error occurred during the request.
       }
   };
-}, 60000);
+}, 10000);
