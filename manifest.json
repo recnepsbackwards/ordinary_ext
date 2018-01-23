@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "KBB",
+    "name": "Ordinary",
     "version": "1.0",
-    "description": "KBB",
+    "description": "Ordinary",
     "page_action": {
         "default_icon": "icon1.png"
     },
