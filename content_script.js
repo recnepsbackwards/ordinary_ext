@@ -11,7 +11,7 @@ setInterval(function(){
         xhr.parsed = JSON.parse(xhr.responseText);
         var symbols = xhr.parsed.symbols;
         console.log(xhr.parsed); // 'This is the returned text.'
-        if (symbols.length >= 246) {
+        if (symbols.length > 246) {
           var message = symbols[symbols.length-1].baseAsset + ' is the new coin. ' + date;
           alert(message);
           console.log(message);
